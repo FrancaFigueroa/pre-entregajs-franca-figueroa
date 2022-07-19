@@ -19,9 +19,9 @@ do{
     }while(isNaN(precio))
     crearProductos(marca, precio)
     sigue = prompt("Escriba 'no' o 'si', para continuar agregando productos").toLowerCase()
-    if (sigue == "si"){
-        break
-    }else{(sigue!=si)}
+    if (sigue != "si"){
+    }
+
     }
 while(sigue == "si")
 
